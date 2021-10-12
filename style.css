@@ -1,7 +1,7 @@
 h1{
     font-size: 80px;
     font-weight: bolder;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     color: white;
 }
 
@@ -31,10 +31,11 @@ body{
 }
 
 .box{
-   width: 150px;
-   height: 150px;
+
+   min-width: 150px;
+   min-height: 150px;
    border: 1px solid;
-   font-size:20px;
+   font-size: 20px;
    font-weight: bolder;
 
 }

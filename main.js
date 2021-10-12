@@ -10,8 +10,8 @@ for (let i = 1; i <= 100; i++){
     const fizz = i % 3 === 0;
     const buzz = i % 5 === 0;
     const fizzBuzz = (i % 3 === 0) && (i % 5 === 0);
+    
     let alertFizzBuzz = ""
-
     let bgColor= "";
     let numero = i;
 
@@ -32,7 +32,7 @@ for (let i = 1; i <= 100; i++){
     }
     
 
-    row.innerHTML +=    `<div class="col-7 p-0 justify-content-center align-items-center">
+    row.innerHTML +=    `<div class="col-7 p-0">
                                 <div class="box d-flex justify-content-center align-items-center ${bgColor}">
                                     <div> ${numero} ${alertFizzBuzz} </div>
                                 </div>
