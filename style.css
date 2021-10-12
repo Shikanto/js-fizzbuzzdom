@@ -2,25 +2,26 @@ h1{
     font-size: 80px;
     font-weight: bolder;
     margin-bottom: 30px;
+    color: white;
 }
 
-bg-body{
+body{
     background-color: #083b4c;
 }
 
-bg-fizz{
+.bg-fizz{
     background-color: #0bd6a1;
 }
 
-bg-buzz{
+.bg-buzz{
     background-color: #ffd166;
 }
 
-bg-fizzbuzz{
+.bg-fizzbuzz{
     background-color: #f0466f;
 }
 
-bg-normal{
+.bg-normal{
     background-color: #1389b2;
 }
 
@@ -33,6 +34,8 @@ bg-normal{
    width: 150px;
    height: 150px;
    border: 1px solid;
+   font-size:20px;
+   font-weight: bolder;
 
 }
 
