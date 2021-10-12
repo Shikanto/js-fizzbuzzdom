@@ -11,7 +11,7 @@ for (let i = 1; i <= 100; i++){
     const buzz = i % 5 === 0;
     const fizzBuzz = (i % 3 === 0) && (i % 5 === 0);
 
-    row.innerHTML +=    `<div class="col-7">
+    row.innerHTML +=    `<div class="col-7 p-0 justify-content-center align-items-center">
                                 <div class="box d-flex justify-content-center align-items-center">
                                     <div> ${i} </div>
                                 </div>

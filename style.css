@@ -1,6 +1,7 @@
 h1{
     font-size: 80px;
     font-weight: bolder;
+    margin-bottom: 30px;
 }
 
 bg-body{
@@ -29,13 +30,12 @@ bg-normal{
 }
 
 .box{
-   width: 70px;
-   height: 70px;
+   width: 150px;
+   height: 150px;
    border: 1px solid;
 
 }
 
 .row{
-    --bs-gutter-y: 1.5rem;
-    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 2.5rem;
 }
