@@ -3,9 +3,6 @@ const containerFizzBuzz = document.getElementsByClassName("container")[1];
 
 
 
-const row = document.createElement("div");
-row.classList.add("row", "gap-5");
-
 for (let i = 1; i <= 100; i++){
     const fizz = i % 3 === 0;
     const buzz = i % 5 === 0;
@@ -32,14 +29,14 @@ for (let i = 1; i <= 100; i++){
     }
     
 
-    row.innerHTML +=    `<div class="col-7 p-0">
-                            <div class="box d-flex justify-content-center align-items-center ${bgColor}">
-                                <div> ${numero} </div>
-                            </div>
-                        </div>` ;
+    containerFizzBuzz.innerHTML +=    `<div class="box col-7 d-flex justify-content-center align-items-center ${bgColor}">
+                                            <div> ${numero} </div>
+                                        </div>` ;
 
     
 
-    containerFizzBuzz.append(row);
+    
 }
+
+containerFizzBuzz.append(containerFizzBuzz);
 

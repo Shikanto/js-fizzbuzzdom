@@ -9,6 +9,7 @@ body{
     background-color: #083b4c;
 }
 
+
 .bg-fizz{
     background-color: #0bd6a1;
 }
@@ -26,8 +27,9 @@ body{
 }
 
 .col-7{
-    width: calc((100% / 7) - 3rem);
-    flex: 0 0 auto;
+    width: calc((100% / 7) - 1.5rem);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .box{
