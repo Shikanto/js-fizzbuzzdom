@@ -26,12 +26,6 @@ body{
     background-color: #1389b2;
 }
 
-.col-7{
-    width: calc((100% / 7) - 1.5rem);
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .box{
 
    width: 150px;

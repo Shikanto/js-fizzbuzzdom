@@ -29,7 +29,7 @@ for (let i = 1; i <= 100; i++){
     }
     
 
-    containerFizzBuzz.innerHTML +=    `<div class="box col-7 d-flex justify-content-center align-items-center ${bgColor}">
+    containerFizzBuzz.innerHTML +=    `<div class="box d-flex justify-content-center align-items-center ${bgColor}">
                                             <div> ${numero} </div>
                                         </div>` ;
 
